@@ -1,7 +1,7 @@
 if (location.href.indexOf("instagram.com") == -1) {
 	console.log("Find another popular profile.")
-} else if (parseInt(document.getElementsByClassName("g47SY")[1].title.split(" ").join("").split(",").join("")) < 1000000) {
-	console.log("Not enough subscribers. Find someone who has more than 1000000 followers.")
+} else if (parseInt(document.getElementsByClassName("g47SY")[1].title.split(" ").join("").split(",").join("")) < 1000) {
+	console.log("Not enough subscribers. Find someone who has more than 1000 followers.")
 } else {
 	time = prompt("Set the interval", "");
 	a = document.getElementsByClassName("_6VtSN");
